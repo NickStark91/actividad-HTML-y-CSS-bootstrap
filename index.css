@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* ----------------------------- inicio HEADER ------------------------- */
+
+header {
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    background-color: #273846;
+    height: 15vh;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header .container p {
+    font-size: 35px;
+}
+
+header .container nav {
+    margin-top: 38px;
+    font-size: 22px;
+}
+
+header .container a {
+    margin-right: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header .container a:hover {
+    margin-right: 20px;
+    color: #00af92;
+    text-decoration: none;
+}
+/* ----------------------------- fin HEADER ------------------------- */
+
+/* ----------------------------- inicio SECCION 1 ------------------------- */
+
+body #seccion1 {
+    padding-top: 10px;
+    height: 118vh;
+    width: 100%;
+    background-color: #00af92;
+    text-align: center;
+    color: aliceblue;
+}
+
+body #seccion1 h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+body #seccion1 h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+/* ----------------------------- fin SECCION 1 ------------------------- */
+/* ----------------------------- Inicio SECCION 2 ------------------------- */
+
+body #seccion2 {
+    display: flex;
+    position:inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body #seccion2 .portimage {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 30px 30px;
+}
+
+body #seccion2 .containerS2 h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+body #seccion2 .containerS2 .separador2 {
+    align-items: center;
+}
+
+/* ----------------------------- fin SECCION 2 ------------------------- */
+
+/* ----------------------------- Inicio SECCION 3 ------------------------- */
+
+body #seccion3 .parrafos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body #seccion3 .parrafos{
+    width: 45%;
+    height: 35px;
+}
+
+/* ----------------------------- finSECCION 3 ------------------------- */
+#Perfil {
+    width: 250px;
+    height: 250px;
+    margin-top: 200px;
+}
+
+#separador {
+    align-items: center;
+}
+
+#botonDescarga {
+    font-size: 1em;
+    padding: 15px 20px;
+}
