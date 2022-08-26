@@ -50,7 +50,7 @@ body #seccion1 {
     padding-top: 10px;
     height: 118vh;
     width: 100%;
-    background-color: #00af92;
+    background-color: #00ae90;
     text-align: center;
     color: aliceblue;
 }
@@ -69,10 +69,11 @@ body #seccion1 h3 {
 /* ----------------------------- Inicio SECCION 2 ------------------------- */
 
 body #seccion2 {
+    display: inline;
+}
+
+body #seccion2 .containerS2 {
     display: flex;
-    position:inherit;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 body #seccion2 .portimage {
@@ -82,26 +83,164 @@ body #seccion2 .portimage {
     margin: 30px 30px;
 }
 
-body #seccion2 .containerS2 h2 {
-    font-size: 45px;
+body #seccion2 .portimage {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 30px 30px;
 }
 
-body #seccion2 .containerS2 .separador2 {
-    align-items: center;
+body #seccion2 h2 {
+    font-size: 45px;
+    margin-left: 39%;
+}
+
+body #seccion2 img {
+    margin-left: 36%;
 }
 
 /* ----------------------------- fin SECCION 2 ------------------------- */
 
 /* ----------------------------- Inicio SECCION 3 ------------------------- */
 
-body #seccion3 .parrafos {
+body #seccion3 {
+    background-color: #00ae90;
+    color: aliceblue;
+}
+
+body .containerS3 {
     display: flex;
-body #seccion3 .parrafos{
-    width: 45%;
-    height: 35px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body .containerS3 h2 {
+    margin-top: 90px;
+    align-self: center;
+    font-size: 55px;
+}
+
+body #seccion3 .containerS3 img {
+    align-self: center;
+}
+
+body #seccion3 .containerS3 .parrafos {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+    font-size: 1.5em;
+}
+
+body #seccion3 #botonDescarga {
+    align-self: center;
+    margin-bottom: 90px;
+    height: 65px;
+    width: 230px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: aliceblue solid 3px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+body #seccion3 #botonDescarga:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+body #seccion3 p {
+    padding: 0 50px;
+    width: 50%;
 }
 
 /* ----------------------------- finSECCION 3 ------------------------- */
+
+/* ----------------------------- Inicio SECCION 4 ------------------------- */
+
+body #seccion4 {
+    color: #273846;
+}
+
+body #seccion4 .containerS4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body #seccion4 .containerS4 h2 {
+    margin-top: 90px;
+    font-size: 55px;
+}
+
+body #seccion4 .containerS4 input {
+    margin: 10px 15px;
+    padding: 10px 10px;
+    width: 650px;
+    height: 80px;
+    border-top: transparent none 0;
+    border-left: transparent none 0;
+    border-right: transparent none 0;
+    border-bottom: #273846 solid 1.5px;
+    font-size: 23px;
+}
+
+body #seccion4 .containerS4 input:hover {
+    border-bottom: #00ae90 solid 1.5px;
+    font-size: 16px;
+}
+
+body #seccion4 .containerS4 textarea {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 15px;
+    padding: 10px 10px;
+    height: 200px;
+    width: 650px;
+    border-top: transparent none 0;
+    border-left: transparent none 0;
+    border-right: transparent none 0;
+    border-bottom: #273846 solid 1.5px;
+}
+
+body #seccion4 .containerS4 textarea:hover {
+    border-bottom: #00ae90 solid 1.5px;
+    font-size: 16px;
+}
+
+/* ----------------------------- fin SECCION 4 ------------------------- */
+
+/* ----------------------------- Inicio SECCION 5 ------------------------- */
+
+body #seccion5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #273846;
+    color: aliceblue;
+    text-align: center;
+}
+
+body #seccion5 div {
+    margin: 40px 80px;
+
+}
+
+body #seccion5 div h2 {
+    font-size: 26px;
+}
+
+body #seccion5 .containerS5 {
+    display: flex;
+}
+
+
+/* ----------------------------- fin SECCION 5 ------------------------- */
+
+body footer {
+    background-color: #17222a;
+}
+
 #Perfil {
     width: 250px;
     height: 250px;
@@ -112,7 +251,6 @@ body #seccion3 .parrafos{
     align-items: center;
 }
 
-#botonDescarga {
-    font-size: 1em;
-    padding: 15px 20px;
+#iconos {
+    display: none;
 }
