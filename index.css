@@ -84,7 +84,6 @@ body #seccion2 .portimage {
 
 body #seccion2 .containerS2 h2 {
     font-size: 45px;
-    text-align: center;
 }
 
 body #seccion2 .containerS2 .separador2 {
@@ -97,9 +96,6 @@ body #seccion2 .containerS2 .separador2 {
 
 body #seccion3 .parrafos {
     display: flex;
-    flex-wrap: wrap;
-}
-
 body #seccion3 .parrafos{
     width: 45%;
     height: 35px;
