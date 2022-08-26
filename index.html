@@ -11,19 +11,21 @@
     <title>Freelancer - One Page Theme -  Start Bootstrap</title>
 
     <div id="iconos">
-    <a target="_blank" href="https://icons8.com/icon/60443/linkedin-rodeado-de-círculo">LinkedIn rodeado de círculo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-    <a target="_blank" href="https://icons8.com/icon/53372/internet">Internet</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-    <a target="_blank" href="https://icons8.com/icon/60451/twitter-circled">Twitter Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/60443/linkedin-rodeado-de-círculo">LinkedIn rodeado de círculo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/53372/internet">Internet</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/60451/twitter-circled">Twitter Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/zWBbi62CYIKH/estrella">Estrella</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/zWBbi62CYIKH/estrella">Estrella</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     </div>
 </head>
 <body>
     <header>
         <div class="container">
-            <p class="home">Start Bootstrap</p>
+            <a href="#seccion1"><p>START BOOTSTRAP</p></a>
             <nav>
-                    <a href="#Portafolio">Portafolio</a>
-                    <a href="#SN">Sobre nosotros</a>
-                    <a href="#contacto">Contactenos</a>
+                <a href="#Portafolio">Portafolio</a>
+                <a href="#SN">Sobre nosotros</a>
+                <a href="#contacto">Contactenos</a>
             </nav>
         </div>
     </header>
@@ -31,43 +33,60 @@
         <div class="containerS1">
             <img id="Perfil" src="./avatar.svg">
             <h1>START BOOTSTRAP</h1>
-            <img class="separador" src="imgs portafolio/separador.jpg">
+            <div id="figurablanco">
+                <div id="lineablanco"></div>
+                    <img src="./estrellablanco.png">
+                <div id="lineablanco"></div>
+            </div>
             <h3>Graphic Artist - Web Designer - Illustrator</h3>
         </div>
     </section>
     <section id="seccion2">
-        <h2>PORTAFOLIO</h2>
-        <img class="separador2" src="imgs portafolio/separador2.jpg">
-        <div class="containerS2">
-            <div>
-                <img class="portimage" src="imgs portafolio/cabin.png">
-                <img class="portimage" src="imgs portafolio/cake.png">
-                <img class="portimage" src="imgs portafolio/circus.png">
-                <img class="portimage" src="imgs portafolio/game.png">
-                <img class="portimage" src="imgs portafolio/safe.png">
-                <img class="portimage" src="imgs portafolio/submarine.png">
+            <div id="Portafolio" class="containerS2">
+                <h2>PORTAFOLIO</h2>
+                <div id="figuranegro">
+                    <div id="lineanegro"></div>
+                        <img src="./estrellanegro.png">
+                    <div id="lineanegro"></div>
+                </div>
+                <div id="portimage">
+                    <img src="imgs portafolio/cabin.png">
+                    <img src="imgs portafolio/cake.png">
+                    <img src="imgs portafolio/circus.png">
+                    <img src="imgs portafolio/game.png">
+                    <img src="imgs portafolio/safe.png">
+                    <img src="imgs portafolio/submarine.png">
+                </div>
             </div>
-        </div>
     </section>
     <section id="seccion3">
-        <div class="containerS3">
+        <div id="SN" class="containerS3">
             <h2>Acerca de Nosotros</h2>
-            <img src="imgs portafolio/separador.jpg">
-                <div class="parrafos">  
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                </div>
+            <div id="figurablanco">
+                <div id="lineablanco"></div>
+                    <img src="./estrellablanco.png">
+                <div id="lineablanco"></div>
+            </div>
+            <div class="parrafos">  
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
             <button id="botonDescarga">Free Download</button>
         </div>
     </section>
     <section id="seccion4">
-        <div class="containerS4">
+        <div id="contacto" class="containerS4">
             <h2>Contactenos</h2>
-            <img src="./imgs portafolio/separador2.jpg">
+            <div id="figuranegro">
+                <div id="lineanegro"></div>
+                    <img src="./estrellanegro.png">
+                <div id="lineanegro"></div>
+            </div>
             <input type="text" placeholder="Nombres Completos" >
             <input type="text" placeholder="Dirección email">
             <input type="text" placeholder="Número telefónico">
             <textarea placeholder="Dejenos su comentario" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
         </div>
     </section>
     <section id="seccion5">
@@ -86,7 +105,7 @@
             </div>
             <div>
                 <h2>ABOUT FREELANCER</h2>
-                <p>Freelance is a free to use, MIT licensed <br> Bootstrap theme created by Start <br> Bootstrap .</p>
+                <p>Freelance is a free to use, MIT licensed <br> Bootstrap theme created by <a href="#seccion1">Start <br> Bootstrap</a> .</p>
             </div>
         </div>
     </section>
